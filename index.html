@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#070811">
+  <meta name="description" content="Omkar Verma — digital explorer, builder, and independent mind.">
+  <title>IZOMKAR — Beyond the Ordinary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="IZOMKAR home"><span class="brand-mark">I<span>Z</span></span><span class="brand-name">IZOMKAR<span class="brand-dot">.</span></span></a>
+    <nav>
+      <a href="#about">ABOUT</a><a href="#signals">SIGNALS</a><a href="#contact">CONTACT</a>
+    </nav>
+    <a class="status" href="https://github.com/izomkar" target="_blank" rel="noreferrer"><span class="status-dot"></span> GITHUB <span class="arrow">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="orb orb-one" aria-hidden="true"></div><div class="orb orb-two" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> INDEPENDENT MIND · DIGITAL FRONTIER</p>
+        <h1>NOT HERE<br>TO BE <span class="outline">ORDINARY</span><span class="blink">_</span></h1>
+        <p class="intro">I’m <strong>Omkar Verma</strong> — exploring the edge where technology, creativity, and curiosity collide.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#signals">EXPLORE MY WORLD <span>↘</span></a>
+          <a class="button ghost" href="https://github.com/izomkar" target="_blank" rel="noreferrer">VIEW GITHUB <span>↗</span></a>
+        </div>
+        <div class="microdata"><span>LOCATION <b>EARTH / IN</b></span><span>STATUS <b>ALWAYS LEARNING</b></span></div>
+      </div>
+      <div class="hero-visual" aria-label="Abstract glowing futuristic portal">
+        <div class="portal">
+          <div class="portal-ring ring-a"></div><div class="portal-ring ring-b"></div><div class="portal-ring ring-c"></div>
+          <div class="portal-core"><span>IZ</span><i>◈</i></div>
+          <span class="orbit-label label-top">UNKNOWN / 001</span><span class="orbit-label label-bottom">KEEP LOOKING CLOSER</span>
+        </div>
+        <div class="side-code">01001001<br>01011010<br>00110101</div>
+        <div class="scanline"></div>
+      </div>
+      <div class="hero-bottom"><span>SCROLL TO DECODE</span><span class="scroll-line"></span><span>01 — 03</span></div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-tag"><span>01</span> / THE PERSON BEHIND THE SIGNAL</div>
+      <div class="about-layout">
+        <div><h2>CURIOUS BY<br><em>DEFAULT.</em></h2></div>
+        <div class="about-text"><p class="large">I believe the most interesting things happen just outside the familiar.</p><p>From AI and automation to digital experiments, I’m interested in learning how systems work, finding unconventional paths, and turning ideas into something real.</p><p class="muted">This is a living archive. The next signal is still being built.</p></div>
+      </div>
+      <div class="principles"><div><span>01</span><b>QUESTION</b><small>Look beyond the obvious.</small></div><div><span>02</span><b>BUILD</b><small>Make curiosity tangible.</small></div><div><span>03</span><b>EVOLVE</b><small>Stay a work in progress.</small></div></div>
+    </section>
+
+    <section class="signals section" id="signals">
+      <div class="section-tag"><span>02</span> / AREAS OF EXPLORATION</div>
+      <div class="signals-head"><h2>ACTIVE<br><em>SIGNALS.</em></h2><p>Not labels. Directions.<br>Some are in progress. All are evolving.</p></div>
+      <div class="signal-list">
+        <article class="signal-card"><span class="signal-index">A / 01</span><div><h3>AI & AUTOMATION</h3><p>Exploring intelligent tools, local models, and workflows that reduce friction.</p></div><span class="signal-icon">⌘</span></article>
+        <article class="signal-card"><span class="signal-index">B / 02</span><div><h3>DIGITAL EXPERIMENTS</h3><p>Web experiences, creative systems, and ideas built one iteration at a time.</p></div><span class="signal-icon">⟡</span></article>
+        <article class="signal-card"><span class="signal-index">C / 03</span><div><h3>LEARNING IN PUBLIC</h3><p>Collecting skills, testing assumptions, and documenting the process.</p></div><span class="signal-icon">↗</span></article>
+      </div>
+      <p class="fineprint">PROJECTS WILL APPEAR HERE AS THEY TAKE SHAPE <span>— TRANSMISSION CONTINUES</span></p>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-glow"></div>
+      <div class="section-tag"><span>03</span> / OPEN CHANNEL</div>
+      <p class="eyebrow">HAVE AN IDEA? A QUESTION? A STRANGE THEORY?</p>
+      <h2>LET'S MAKE<br><em>CONTACT.</em></h2>
+      <p class="contact-copy">Good things start with a signal. Send one.</p>
+      <div class="contact-actions"><a class="button primary" href="https://github.com/izomkar" target="_blank" rel="noreferrer">CONNECT ON GITHUB ↗</a><button class="button ghost" id="copyHandle" type="button">COPY @IZOMKAR <span>⧉</span></button></div>
+      <p class="copy-feedback" id="copyFeedback" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer><a class="footer-brand" href="#home">IZOMKAR<span>.</span></a><span>DESIGNED FOR THE UNKNOWN.</span><span>© <span id="year"></span> OMKAR VERMA</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
